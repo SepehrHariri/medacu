@@ -1,0 +1,209 @@
+$(document).ready(function() {
+    if ($.fn.fancybox != 'undefined') {
+        $('.fancybox').fancybox();
+		$('.wp-block-image a').fancybox();
+    }});
+
+    $('#side-menu ul.menu li.menu-item-has-children > a').append('<svg ><use xlink:href="#chevron-down"></use></svg>');
+    $('#side-menu ul.menu li.menu-item-has-children > a svg').click(function(e) {
+        e.preventDefault();
+        $(this).parent('a').parent('li').toggleClass('opened');
+        // console.info($(this));
+    });
+    
+
+
+        function openLightbox(imageUrl) {
+        var lightbox = document.getElementById('lightbox');
+        lightbox.innerHTML = '<img src="' + imageUrl + '" alt="Image" /><a href="javascript:void(0);" class="close-lightbox" onclick="closeLightbox()">×</a>';
+        lightbox.style.display = 'block';
+    }
+
+    function closeLightbox() {
+        var lightbox = document.getElementById('lightbox');
+        lightbox.innerHTML = '';
+        lightbox.style.display = 'none';
+    }
+
+  var homeSliderOwl = $('#home-slider .owl-carousel');
+    homeSliderOwl.owlCarousel({
+        items: 1,
+        loop: true,
+        dots: true,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        navText: [
+            '<svg ><use xlink:href="#chevron-left"></use></svg>',
+            '<svg ><use xlink:href="#chevron-right"></use></svg>'
+        ],
+    });
+    
+
+ var aesthetics = $('home-loop-contents .owl-carousel');
+aesthetics.owlCarousel({
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    loop: true,
+    dots: true,
+    nav: true,
+    mouseDrag: true,
+    touchDrag: false,
+    navText: [
+        '<svg style="width:80px; height:80px; color:#fff"><use xlink:href="#chevron-left"></use></svg>',
+        '<svg style="width:80px; height:80px; color:#fff"><use xlink:href="#chevron-right"></use></svg>'
+    ],
+    responsive: {
+        0: {
+            items: 1,
+            margin: 15,
+            
+        },
+        575: {
+            items: 2,
+            margin: 15,
+        },
+        768: {
+            items: 3,
+            margin: 20,
+        },
+        1200: {
+            items: 3,
+            margin: 40,
+        }
+    }
+});
+
+    var insta = $('#home-insta-area .owl-carousel');
+    insta.owlCarousel({
+        loop: true,
+        dots: true,
+        nav: true,
+        navText: [
+            '<svg style="width:80px; height:80px; color:#000"><use xlink:href="#chevron-left"></use></svg>',
+            '<svg style="width:80px; height:80px; color:#000"><use xlink:href="#chevron-right"></use></svg>'
+        ],
+        autoplay: true,
+        autoplayTimeout: 2000,
+        responsive: {
+            0: {
+                items: 1,
+                margin: 15,
+            },
+            575: {
+                items: 2,
+                margin: 15,
+            },
+            768: {
+                items: 3,
+                margin: 20,
+            },
+            1200: {
+                items: 3,
+                margin: 40,
+            }
+        }
+    });
+
+    var aesthetic = $('.container .owl-carousel');
+    aesthetic.owlCarousel({
+        loop: true,
+        dots: true,
+        nav: true,
+        navText: [
+            '<svg style="width:80px; height:80px; color:#000"><use xlink:href="#chevron-left"></use></svg>',
+            '<svg style="width:80px; height:80px; color:#000"><use xlink:href="#chevron-right"></use></svg>'
+        ],
+        autoplay: true,
+        autoplayTimeout: 2000,
+        responsive: {
+            0: {
+                items: 1,
+                margin: 15,
+            },
+            575: {
+                items: 2,
+                margin: 15,
+            },
+            768: {
+                items: 3,
+                margin: 20,
+            },
+            1200: {
+                items: 3,
+                margin: 40,
+            }
+        }
+    });
+
+var about = $('#galleries .owl-carousel');
+about.owlCarousel({
+    loop: true,
+    dots: true,
+    nav: false,
+    autoplay: true, // Otomatik oynatma etkinleştirildi
+    autoplayTimeout: 4000,
+    responsive: {
+        0: {
+            items: 1,
+            margin: 15,
+        },
+        575: {
+            items: 2,
+            margin: 15,
+        },
+        768: {
+            items: 3,
+            margin: 20,
+        },
+        1200: {
+            items: 3,
+            margin: 40,
+        }
+    }
+});
+
+jQuery(document).ready(function($) {
+    // Galeri sliderını seçin ve Owl Carousel uygulayın
+    $('.gallery-slider').owlCarousel({
+        loop: true, // Sonsuz döngü
+        margin: 10, // Slayt arasındaki boşluk
+        nav: true, // Navigasyon okları
+        autoplay: true, // Otomatik oynatma etkinleştirildi
+    autoplayTimeout: 4000,
+         navText: [
+            '<svg style="width:80px; height:80px; color:#000"><use xlink:href="#chevron-left"></use></svg>',
+            '<svg style="width:80px; height:80px; color:#000"><use xlink:href="#chevron-right"></use></svg>'
+        ],
+        responsive: {
+            0: {
+                items: 1 // Ekran daraldığında kaç tane öğe gösterileceği
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    });
+});
+
+    function ekranGenisliginiKontrolEt() {
+    var eleman = document.getElementById('mobil-goster');
+    if (window.innerWidth < 992) {
+        // Ekran genişliği 992px'den küçükse (mobil cihazlar)
+        eleman.style.display = 'block'; // Elemanı görünür yap
+    } else {
+        // Ekran genişliği 992px ve üzeri ise (masaüstü cihazlar)
+        eleman.style.display = 'none'; // Elemanı gizle
+    }
+}
+
+// Pencere yeniden boyutlandırıldığında ve yüklendiğinde fonksiyonu çağır
+window.onresize = ekranGenisliginiKontrolEt;
+ekranGenisliginiKontrolEt();
+
+
+

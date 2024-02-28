@@ -1,0 +1,127 @@
+/*------------------------------------------------------------------//
+//      RESPONSIVE SYSTEM                                                                                 //
+//------------------------------------------------------------------*/
+@media screen and (min-width: 1601px) {
+  /* PC 1400+  */ 
+  .mobile-hamburger-menu, .mContact {display: none !important;}
+}
+@media screen and (max-width: 1600px) and (min-width: 1369px) {
+  .mobile-hamburger-menu, .mContact {display: none !important;}
+}
+@media screen and (max-width: 1368px) and (min-width: 1199px) {
+  .mobile-hamburger-menu, .mContact {display: none !important;}
+}
+@media screen and (max-width: 1198px) and (min-width: 992px) {
+  /* IPAD PRO */
+  .mobile-hamburger-menu, .mContact {display: block !important;}
+  .site-header .head-right nav.menu {display: none !important;}
+  main #contact-us .social-media .item {width: 33.33%;}
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  /* TABLET 768+ ~ 960 */
+  .mobile-hamburger-menu, .mContact {display: block !important;}
+  .site-header .head-right nav.menu {display: none !important;}
+  main #contact-us .social-media .item {width: 33.33%; display: block !important; text-align: center;}
+  main #contact-us .social-media .item .desc a {font-size: 20px;}
+  main #blog {padding: 150px 0 75px 0;}
+  main #blog .post.small .desc .title {margin: 10px 0;}
+  main #videos .bigVideo {padding: 0 !important;}
+  footer .column {padding: 15px 0;}
+  footer .column .post {margin: 15px 0;}
+}
+@media screen and (max-width: 767px) and (min-width: 640px) {
+  /* TABLET 640+ ~ 768 */
+  p {font-size: 12px !important;}
+  .btn {font-size: 10px !important; margin-top: 5px !important; padding: 0 10px !important;}
+  .mobile-hamburger-menu, .mContact {display: block !important;}
+  .site-header .head-right nav.menu {display: none !important;}
+  
+  main .section .title {font-size: 20px; line-height: 20px; margin-bottom: 10px;}
+  main .section .title small {font-size: 12px;}
+
+  main #about-us .text .title {font-size: 20px; line-height: 20px; margin-bottom: 10px;}
+  main #about-us .text .desc {padding: 15px 0;}
+
+  main #services .bar {margin: 10px 0 !important;}
+  main #services .bar .desc {width: 75%;}
+  main #services .bar .desc .title {font-size: 20px;}
+  main #services .bar .desc p {margin-bottom: 5px;}
+
+  main .page-head {padding: 100px 0 30px 0;}
+  main .page-inner .in {margin-top: 0; padding: 15px !important;}
+  main .page-inner .in figure {margin: 10px 0 !important;}
+
+  main #contact-us .social-media {display: block;z-index: 9;position: relative;}
+  main #contact-us .social-media .item {width: 100%;display: block !important;text-align: center; margin: 10px 0;}
+  main #contact-us .social-media .item .desc a {font-size: 20px;}
+  main #blog {padding: 150px 0 75px 0;}
+  main #blog .post.small .desc .title {margin: 10px 0;}
+  main #videos .bigVideo {padding: 0 !important;}
+  footer .column {padding: 15px 0; border: none; border-bottom: 1px solid rgba(255,255,255, 0.1);}
+  footer .column .post {margin: 15px 0;}
+  main #contact-us .social-media {display: block !important;}
+}
+@media screen and (max-width: 639px) and (min-width: 480px) {
+  /* MOBILE 480+ ~ 640 */
+  p {font-size: 12px !important;}
+  .btn {font-size: 10px !important; margin-top: 5px !important; padding: 0 10px !important;}
+  .mobile-hamburger-menu, .mContact {display: block !important;}
+  .site-header .head-right nav.menu {display: none !important;}
+  
+  main .section .title {font-size: 20px; line-height: 20px; margin-bottom: 10px;}
+  main .section .title small {font-size: 12px;}
+
+  main #about-us .text .title {font-size: 20px; line-height: 20px; margin-bottom: 10px;}
+  main #about-us .text .desc {padding: 15px 0;}
+
+  main #services .bar {margin: 10px 0 !important;}
+  main #services .bar .desc {width: 75%;}
+  main #services .bar .desc .title {font-size: 20px;}
+  main #services .bar .desc p {margin-bottom: 5px;}
+
+  main .page-head {padding: 100px 0 30px 0;}
+  main .page-inner .in {margin-top: 0; padding: 15px !important;}
+  main .page-inner .in figure {margin: 10px 0 !important;}
+
+  main #contact-us .social-media {display: block;z-index: 9;position: relative;}
+  main #contact-us .social-media .item {width: 100%;display: block !important;text-align: center; margin: 10px 0;}
+  main #contact-us .social-media .item .desc a {font-size: 20px;}
+  main #blog {padding: 150px 0 75px 0;}
+  main #blog .post.small .desc .title {margin: 10px 0;}
+  main #videos .bigVideo {padding: 0 !important;}
+  footer .column {padding: 15px 0; border: none; border-bottom: 1px solid rgba(255,255,255, 0.1);}
+  footer .column .post {margin: 15px 0;}
+  main #contact-us .social-media {display: block !important;}
+}
+@media screen and (max-width: 479px) and (min-width: 320px) {
+  /* MOBILE 320+ ~ 480 */
+  p {font-size: 12px !important;}
+  .btn {font-size: 10px !important; margin-top: 5px !important; padding: 0 10px !important;}
+  .mobile-hamburger-menu, .mContact {display: block !important;}
+  .site-header .head-right nav.menu {display: none !important;}
+  
+  main .section .title {font-size: 20px; line-height: 20px; margin-bottom: 10px;}
+  main .section .title small {font-size: 12px;}
+
+  main #about-us .text .title {font-size: 20px; line-height: 20px; margin-bottom: 10px;}
+  main #about-us .text .desc {padding: 15px 0;}
+
+  main #services .bar {margin: 10px 0 !important;}
+  main #services .bar .desc {width: 75%;}
+  main #services .bar .desc .title {font-size: 20px;}
+  main #services .bar .desc p {margin-bottom: 5px;}
+
+  main .page-head {padding: 100px 0 30px 0;}
+  main .page-inner .in {margin-top: 0; padding: 15px !important;}
+  main .page-inner .in figure {margin: 10px 0 !important;}
+
+  main #contact-us .social-media {display: block;z-index: 9;position: relative;}
+  main #contact-us .social-media .item {width: 100%;display: block !important;text-align: center; margin: 10px 0;}
+  main #contact-us .social-media .item .desc a {font-size: 20px;}
+  main #blog {padding: 150px 0 75px 0;}
+  main #blog .post.small .desc .title {margin: 10px 0;}
+  main #videos .bigVideo {padding: 0 !important;}
+  footer .column {padding: 15px 0; border: none; border-bottom: 1px solid rgba(255,255,255, 0.1);}
+  footer .column .post {margin: 15px 0;}
+  main #contact-us .social-media {display: block !important;}
+}

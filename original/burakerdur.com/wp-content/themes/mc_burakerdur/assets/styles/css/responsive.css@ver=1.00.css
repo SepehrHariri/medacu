@@ -1,0 +1,284 @@
+/* Colors */
+@font-face {
+  font-family: 'Rodrigues';
+  src: url('../../fonts/Rodrigues.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* Font */
+/* Fonts */
+/* Functions */
+@media (max-width: 1440px) {
+  header .top-menu > li > a {
+    font-size: 14px;
+  }
+  header .header-button {
+    padding: 12px 24px;
+  }
+  #home-about {
+    padding: 120px 0;
+  }
+  #home-loop-contents {
+    padding: 120px 0;
+  }
+}
+@media (max-width: 1200px) {
+  header .top-logo img {
+    width: 180px;
+  }
+  header .top-menu > li > a {
+    font-size: 12px;
+    padding: 8px;
+  }
+  header .header-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .gen-button {
+    padding: 16px 40px;
+  }
+  .section-fancy-title {
+    font-size: 60px;
+  }
+  #home-about {
+    padding: 100px 0;
+  }
+  #home-about .about-text-area .about-text {
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  #home-loop-contents {
+    padding: 100px 0;
+  }
+  #home-loop-contents .section-area-title {
+    margin-bottom: 80px;
+  }
+  #home-insta-area {
+    padding: 60px 0 80px;
+  }
+  #home-form-area {
+    padding: 100px 0;
+  }
+  #home-contact-area {
+    padding: 100px 0;
+  }
+  #home-contact-area .section-title-area {
+    margin-bottom: 30px;
+  }
+  #home-contact-area .contact-info-area .contact-info-items .info-item {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 991px) {
+  header .h-area {
+    padding: 15px 0;
+  }
+  header .top-logo img {
+    width: 160px;
+  }
+  .section-title-area .section-title {
+    font-size: 32px;
+  }
+  .section-fancy-title {
+    font-size: 52px;
+  }
+  .gen-button {
+    padding: 12px 32px;
+  }
+  #home-slider .owl-dots {
+    height: 16px;
+  }
+  #home-slider .owl-dots .owl-dot.active span {
+    height: 16px;
+    width: 16px;
+  }
+  #home-slider .owl-dots .owl-dot span {
+    margin: 4px;
+    height: 8px;
+    width: 8px;
+  }
+  #home-about {
+    padding: 80px 0;
+  }
+  #home-about .about-image {
+    margin-bottom: 30px;
+  }
+  #home-about .about-text-area .section-title-area {
+    margin-bottom: 20px;
+  }
+  #home-about .about-text-area .about-text {
+    margin-bottom: 30px;
+  }
+  #home-about .about-text-area .about-button {
+    margin-top: 25px;
+  }
+  #home-loop-contents {
+    padding: 80px 0;
+  }
+  #home-loop-contents .section-area-title {
+    margin-bottom: 60px;
+  }
+  #home-loop-contents .loop-content-card .card-text-area .card-title {
+    font-size: 16px;
+  }
+  #home-loop-contents .loop-content-card .card-text-area .card-button {
+    margin-top: 25px;
+  }
+  #home-insta-area {
+    padding: 60px 0;
+  }
+  #home-insta-area .section-area-title {
+    margin-bottom: 60px;
+  }
+  #home-insta-area .owl-dots {
+    height: 16px;
+  }
+  #home-insta-area .owl-dots .owl-dot.active span {
+    height: 16px;
+    width: 16px;
+  }
+  #home-insta-area .owl-dots .owl-dot span {
+    margin: 4px;
+    height: 8px;
+    width: 8px;
+  }
+  #home-form-area {
+    padding: 80px 0;
+  }
+  #home-form-area .form-area {
+    --gutter-x: 10px;
+    --gutter-x2: -10px;
+    margin-bottom: 40px;
+  }
+  #home-form-area .form-area .input-area {
+    margin-bottom: 20px;
+  }
+  #home-form-area .form-area .form-button {
+    padding: 12px 36px;
+  }
+  #home-contact-area {
+    padding: 80px 0;
+  }
+  #home-contact-area .contact-info-area {
+    margin-bottom: 40px;
+  }
+  #home-contact-area .contact-info-area .contact-info-items .info-item {
+    margin-bottom: 20px;
+  }
+  #home-contact-area .contact-map-area .direction-button {
+    width: 200px;
+  }
+  footer .footer-middle {
+    padding: 50px 0 20px;
+  }
+  footer .footer-middle .footer-col {
+    margin-bottom: 30px;
+    border: none;
+  }
+}
+@media (max-width: 768px) {
+  header .top-logo img {
+    width: 140px;
+  }
+  .section-title-area .section-title {
+    font-size: 28px;
+  }
+  .section-fancy-title {
+    font-size: 44px;
+  }
+  .gen-button {
+    padding: 10px 24px;
+  }
+  #home-slider .owl-nav button {
+    width: 40px;
+    height: 40px;
+  }
+  #home-slider .owl-next {
+    right: 25px;
+  }
+  #home-slider .owl-prev {
+    left: 25px;
+  }
+  #home-about {
+    padding: 60px 0;
+  }
+  #home-about .about-text-area .section-title-area {
+    margin-bottom: 15px;
+  }
+  #home-about .about-text-area .about-text {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  #home-about .about-text-area .about-button {
+    margin-top: 20px;
+  }
+  #home-loop-contents {
+    padding: 60px 0;
+  }
+  #home-loop-contents .section-area-title {
+    margin-bottom: 40px;
+  }
+  #home-loop-contents .loop-content-card .card-text-area .card-button {
+    margin-top: 15px;
+  }
+  #home-insta-area {
+    padding: 40px 0;
+  }
+  #home-insta-area .section-area-title {
+    margin-bottom: 40px;
+  }
+  #home-form-area {
+    padding: 60px 0;
+  }
+  #home-form-area .form-area .input-area {
+    margin-bottom: 20px;
+  }
+  #home-form-area .form-area .form-button {
+    padding: 15px 45px;
+    font-size: 14px;
+  }
+  #home-contact-area {
+    padding: 60px 0;
+  }
+  #home-contact-area .contact-info-area {
+    margin-bottom: 40px;
+  }
+  #home-contact-area .contact-info-area .contact-info-items .info-item {
+    margin-bottom: 15px;
+  }
+  #home-contact-area .contact-info-area .contact-social-items li {
+    margin: 5px;
+  }
+  #home-contact-area .contact-info-area .contact-social-items li a svg {
+    width: 20px;
+    height: 20px;
+  }
+  #home-contact-area .contact-map-area .direction-button {
+    width: 180px;
+    font-size: 16px;
+  }
+  footer .footer-top .footer-logo img {
+    width: 200px;
+  }
+  footer .footer-middle .footer-contacts .footer-contact {
+    margin-bottom: 15px;
+  }
+  footer .footer-middle .footer-socials li {
+    margin: 5px;
+  }
+  footer .footer-bottom {
+    padding: 20px 0 80px;
+  }
+  footer .footer-bottom .copyright {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .section-title-area .section-title {
+    font-size: 24px;
+  }
+  .section-fancy-title {
+    font-size: 40px;
+  }
+}
