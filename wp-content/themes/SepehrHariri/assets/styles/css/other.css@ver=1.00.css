@@ -389,7 +389,7 @@
 }
 #post-detail .post-content .gallery br{
 	display: none;
-	 
+
 }
 #post-detail .post-content .gallery .gallery-item {
 	aspect-ratio: 2/3;
@@ -439,22 +439,22 @@
 #post-detail.expertise {
   padding-top: 0;
 }
-#post-detail .post-header {
+/* #post-detail .post-header {
   overflow: hidden;
   margin-bottom: 40px;
   background-image: url("../../../../../uploads/2023/12/mcbanner.png");
   background-size:cover;
-}
+} */
 #post-detail .post-header .post-title {
-  padding: 50px 0;
+  padding: 75px 0;
   font-weight: 700;
   color: #fff;
   font-size: 48px;
-  margin-top: 140px!important;
+  /* margin-top: 140px!important; */
   line-height: 1.2;
   width: 100%;
   text-align: center;
-  
+
 }
 #post-detail .post-content {
   font-size: 16px;
@@ -575,7 +575,7 @@
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
   width: 100%;
-  background-color: #915E5B;
+  background-color: #a0d18a;
   -webkit-appearance: none;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;

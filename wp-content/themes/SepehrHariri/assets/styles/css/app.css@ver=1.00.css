@@ -442,8 +442,8 @@ header .header-button:hover {
   width: max-content;
   line-height: 1;
   font-size: 16px;
-  color: #915E5B;
-  border: 2px solid #915E5B;
+  color: #a0d18a;
+  border: 2px solid #a0d18a;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -457,7 +457,7 @@ header .header-button:hover {
 }
 .gen-button:hover {
   color: #fff;
-  background-color: #915E5B;
+  background-color: #a0d18a;
 }
 #home-slider {
   position: relative;
@@ -552,14 +552,14 @@ header .header-button:hover {
     width: max-content;
     line-height: 1;
     font-size: 16px;
-    color: #915E5B;
-    border: 2px solid #915E5B;
+    color: #a0d18a;
+    border: 2px solid #a0d18a;
     justify-content: flex-end;
     padding: 20px;
 }
 
 .dr-text a:hover{
-        background-color: #915E5B;
+        background-color: #a0d18a;
         color: #fff;
           transition: all 0.3s;
 }
@@ -734,7 +734,7 @@ header .header-button:hover {
 }
 #home-form-area .form-area .section-title-area .section-top-title,
 #home-form-area .form-area .section-title-area .section-title {
-  color: #915E5B;
+  color: #012f1f;
 }
 #home-form-area .form-area form .wpcf7-not-valid-tip {
   margin-top: 5px;

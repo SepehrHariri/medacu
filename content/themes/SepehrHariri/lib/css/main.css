@@ -91,7 +91,7 @@
   z-index: 9999;
   height: 100%;
   overflow-y: scroll;
-  background-color: #dfa156; }
+  background-color: #a0d18a; }
   #mobile-menu .logo {
     width: 200px;
     margin: 0 auto !important;
@@ -165,7 +165,7 @@
       #mobile-menu ul li a i {
         margin-right: 10px; }
       #mobile-menu ul li a:hover {
-        background-color: #a16114;
+        background-color: #012f1f;
         color: #FFF !important;
         -webkit-transition: all 0.5s;
         transition: all 0.5s;
@@ -337,7 +337,7 @@ button {
 
 .btn {
   color: #FFF;
-  background-color: #000;
+  background-color: #012f1f;
   border-radius: 5px !important;
   line-height: 50px;
   font-weight: 600;
@@ -348,8 +348,8 @@ button {
   .btn i {
     margin-left: 20px; }
   .btn:hover {
-    background-color: #dfa156;
-    color: #FFF;
+    background-color:#a0d18a;
+    color: #000;
     -webkit-transition: all 0.5s;
     transition: all 0.5s; }
 
@@ -454,7 +454,7 @@ button {
         -webkit-transform: translateX(-50%);
                 transform: translateX(-50%);
         z-index: 9;
-        border: 1px solid #dfa156;
+        border: 1px solid #a0d18a;
         opacity: 0;
         pointer-events: none;
         -webkit-transition: all 0.4s;
@@ -463,7 +463,7 @@ button {
           content: "";
           border-style: solid;
           border-width: 10px;
-          border-color: #dfa156;
+          border-color: #a0d18a;
           border-top-color: transparent;
           border-left-color: transparent;
           border-right-color: transparent;
@@ -484,13 +484,13 @@ button {
             font-weight: 400;
             text-transform: capitalize; }
             .site-header .head-right nav.menu ul li ul li a:hover {
-              background-color: #dfa156;
+              background-color: #a0d18a;
               color: #FFF; }
           .site-header .head-right nav.menu ul li ul li:before {
             display: none; }
       .site-header .head-right nav.menu ul li:hover > a {
-        color: #dfa156;
-        background-color: #000;
+        color: #a0d18a;
+        background-color: #012f1f;
         -webkit-transition: all 0.4s;
         transition: all 0.4s; }
       .site-header .head-right nav.menu ul li:hover > ul {
@@ -540,7 +540,7 @@ main {
     line-height: 45px; }
     main .section .title small {
       font-size: 22px;
-      color: #dfa156;
+      color: #06af4a;
       letter-spacing: 3px;
       display: block;
       font-family: "Roboto", sans-serif;
@@ -602,13 +602,13 @@ main {
     main #slider .contact {
       position: absolute;
       bottom: 25px;
-      border-left: 2px solid #000; }
+      border-left: 2px solid #fff; }
       main #slider .contact a {
-        color: #000;
+        color: #fff;
         padding: 15px;
         line-height: 50px; }
         main #slider .contact a i {
-          color: #000; }
+          color: #fff; }
   main #about-us {
     margin: 75px 0; }
     main #about-us .text .title {
@@ -675,7 +675,7 @@ main {
         padding: 0 75px;
         border: none; }
     main #contact-us .social-media {
-      margin-top: 75px;
+      /* margin-top: 75px; */
       }
       main #contact-us .social-media .item {
         padding: 28px;
