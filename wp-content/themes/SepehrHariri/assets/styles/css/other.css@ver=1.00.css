@@ -501,7 +501,7 @@
   margin-bottom: 20px;
 }
 #post-detail .post-content a {
-  color: #915E5B;
+  color: #4ecb5c;
   font-weight: 600;
 }
 #post-detail .post-content img {
@@ -583,7 +583,7 @@
   transition: all 0.3s;
 }
 #post-detail .sidebar-form .button-white:hover {
-  color: #915E5B;
+  color: #012f1f;
   background-color: #fff;
 }
 #post-detail .sidebar-form .wpcf7-response-output {
@@ -615,9 +615,9 @@
   box-shadow: 0 2px 20px 0 rgba(60, 181, 163, 0.2);
   border-style: solid;
   border-width: 2px;
-  border-image-source: linear-gradient(to bottom, #915E5B, white);
+  border-image-source: linear-gradient(to bottom, #4dcb5b, white);
   border-image-slice: 1;
-  background-image: linear-gradient(to bottom, #ffffff, #ffffff), linear-gradient(to bottom, #915E5B, white);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff), linear-gradient(to bottom, #4dcb5b, white);
   background-origin: border-box;
   background-clip: content-box, border-box;
   filter: none;
