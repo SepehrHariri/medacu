@@ -205,8 +205,8 @@ textarea {
     margin-right: 20px;
 }
 .location {
-    margin-left: 20vw;
-    margin-right: 80px;
+    /* margin-left: 20vw; */
+    padding-left: 10vw;
 }
 .instagram {
     margin-left: 80px;
@@ -1499,6 +1499,9 @@ li {
     }
 }
 @media screen and (max-width: 806px){
+    .location{
+        padding-left: 1vw;
+    }
     .top-menu {
         height: 9.5vh;
     }
@@ -1566,6 +1569,9 @@ li {
     }
 }
 @media screen and (max-width: 728px){
+    .instagram {
+        margin-left: 20px;
+    }
     .details {
         margin-right: 20px;
         margin-left: 20px;
@@ -1582,8 +1588,8 @@ li {
         margin-left: 20px;
     }
     .location{
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 0;
+        margin-left: 0;
     }
     #navbarSupportedContent{
         margin-right: 20px;
@@ -1593,6 +1599,12 @@ li {
     }
 }
 @media screen and (max-width: 666px){
+    #loc{
+        display: none;
+    }
+    .location{
+        margin-left: 3vw;
+    }
     .block-box {
         height: 50vh;
     }
