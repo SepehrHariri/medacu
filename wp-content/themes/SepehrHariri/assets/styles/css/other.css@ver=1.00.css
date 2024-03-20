@@ -348,7 +348,7 @@
 #mobile-footer-cta-buttons .button-x svg {
   color: #fff;
 }
-#mobile-footer-cta-buttons .button-x span.text {
+#mobile-footer-cta-buttons .button-x span.aside {
   margin-left: 12px;
   font-weight: 400;
   font-size: 14px;
@@ -515,7 +515,7 @@
 #post-detail .sidebar-form .circle-area {
   margin-bottom: 56px;
 }
-#post-detail .sidebar-form .circle-area .text {
+#post-detail .sidebar-form .circle-area .aside {
   font-size: 24px;
   color: #fff;
   font-weight: 700;
@@ -669,7 +669,7 @@
   #post-detail .sidebar-form .circle-area {
     margin-bottom: 25px;
   }
-  #post-detail .sidebar-form .circle-area .text {
+  #post-detail .sidebar-form .circle-area .aside {
     font-size: 20px;
   }
   #post-detail .sidebar-form form [class*="col-"] {
